@@ -1,0 +1,34 @@
+{
+  "name": "personal-snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "html"
+        ],
+        "path": "./thymeleaf.json"
+      },
+      {
+        "language": [
+          "xml"
+        ],
+        "path": "./xml.json"
+      },
+      {
+        "language": [
+          "java"
+        ],
+        "path": "./java.json"
+      },
+      {
+        "language": [
+          "properties"
+        ],
+        "path": "./properties.json"
+      }
+    ]
+  }
+}

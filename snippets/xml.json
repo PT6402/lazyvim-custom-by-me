@@ -1,0 +1,131 @@
+{
+  "spring_thymeleaf": {
+    "prefix": "spring_thymeleaf",
+    "body": [
+      "<dependency>",
+      "    <groupId>org.springframework.boot</groupId>",
+      "    <artifactId>spring-boot-starter-thymeleaf</artifactId>",
+      "</dependency>",
+      ""
+    ]
+  },
+
+  "spring_data_jpa": {
+    "prefix": "spring_data_jpa",
+    "body": [
+      "<dependency>",
+      "    <groupId>org.springframework.boot</groupId>",
+      "    <artifactId>spring-boot-starter-data-jpa</artifactId>",
+      "</dependency>",
+      ""
+    ]
+  },
+  "spring_web": {
+    "prefix": "spring_web",
+    "body": [
+      "<dependency>",
+      "    <groupId>org.springframework.boot</groupId>",
+      "    <artifactId>spring-boot-starter-data-jpa</artifactId>",
+      "</dependency>",
+      ""
+    ]
+  },
+  "spring_mssql_jdbc": {
+    "prefix": "spring_mssql_jdbc",
+    "body": [
+      "<dependency>",
+      "    <groupId>com.microsoft.sqlserver</groupId>",
+      "    <artifactId>mssql-jdbc</artifactId>",
+      "    <scope>runtime</scope>",
+      "</dependency>",
+      ""
+    ]
+  },
+  "spring_lombok": {
+    "prefix": "spring_lombok",
+    "body": [
+      "<dependency>",
+      "    <groupId>org.projectlombok</groupId>",
+      "    <artifactId>lombok</artifactId>",
+      "    <optional>true</optional>",
+      "</dependency>",
+      ""
+    ]
+  },
+  "spring_validation": {
+    "prefix": "spring_validation",
+    "body": [
+      "<dependency>",
+      "    <groupId>org.springframework.boot</groupId>",
+      "    <artifactId>spring-boot-starter-validation</artifactId>",
+      "</dependency>",
+      ""
+    ]
+  },
+  "spring_security": {
+    "prefix": "spring_security",
+    "body": [
+      "<dependency>",
+      "    <groupId>org.springframework.boot</groupId>",
+      "    <artifactId>spring-boot-starter-security</artifactId>",
+      "</dependency>",
+      ""
+    ]
+  },
+  "jwt": {
+    "prefix": "jwt",
+    "body": [
+      "<dependency>",
+      "    <groupId>io.jsonwebtoken</groupId>",
+      "    <artifactId>jjwt-api</artifactId>",
+      "    <version>0.12.5</version>",
+      "</dependency>",
+      "",
+      "<dependency>",
+      "    <groupId>io.jsonwebtoken</groupId>",
+      "    <artifactId>jjwt-impl</artifactId>",
+      "    <version>0.12.5</version>",
+      "    <scope>runtime</scope>",
+      "</dependency>",
+      "",
+      "<dependency>",
+      "    <groupId>io.jsonwebtoken</groupId>",
+      "    <artifactId>jjwt-jackson</artifactId>",
+      "    <version>0.12.5</version>",
+      "    <scope>runtime</scope>",
+      "</dependency>",
+      ""
+    ]
+  },
+  "google_sheet_util": {
+    "prefix": "google_sheet_util",
+    "body": [
+      "<dependency>",
+      "    <groupId>com.google.api-client</groupId>",
+      "    <artifactId>google-api-client</artifactId>",
+      "    <version>2.4.0</version>",
+      "</dependency>",
+      "",
+      "<dependency>",
+      "    <groupId>com.google.oauth-client</groupId>",
+      "    <artifactId>google-oauth-client-jetty</artifactId>",
+      "    <version>1.35.0</version>",
+      "</dependency>",
+      "",
+      "<dependency>",
+      "    <groupId>com.google.apis</groupId>",
+      "    <artifactId>google-api-services-sheets</artifactId>",
+      "    <version>v4-rev20230815-2.0.0</version>",
+      "</dependency>"
+    ]
+  },
+  "spring_websocket": {
+    "prefix": "spring_websocket",
+    "body": [
+      "<dependency>",
+      "    <groupId>org.springframework.boot</groupId>",
+      "    <artifactId>spring-boot-starter-websocket</artifactId>",
+      "</dependency>"
+    ]
+  }
+}

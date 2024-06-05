@@ -1,0 +1,6 @@
+{
+  "xmlns": {
+    "prefix": "xmlns:th",
+    "body": ["xmlns:th=\"https://www.thymeleaf.org/\""]
+  }
+}
